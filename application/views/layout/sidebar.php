@@ -2,7 +2,7 @@
         <!-- MENU SIDEBAR-->
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
-                <a href="#">
+                <a href="<?=base_url('dashboard')?>">
                     <h4>PT Tousindo Primamulia</h4>                
                 </a>
             </div>
@@ -12,7 +12,7 @@
                        
                         <li>
                             <a href="<?=base_url('dashboard')?>">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                                <i class="fas fa-tachometer-alt"></i>Home</a>
                         </li>
                         <li>
                             <a href="<?=base_url('dashboard/user')?>">
